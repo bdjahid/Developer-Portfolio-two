@@ -1,6 +1,7 @@
  * {
      margin: 0;
      padding: 0;
+     background-color: rgb(158, 129, 129);
  }
 
  .text-orange {
@@ -56,19 +57,18 @@
  }
 
  /* header related */
- /* .head {
-     background: red;
-     color: brown;
+ .head {
+     background-color: crimson;
      cursor: pointer;
      font-size: larger;
-
- } */
+     background-image: url(./images/header_bg.pngs);
+ }
 
  .banner {
      background-color: #FFF8F3;
      display: flex;
      align-items: center;
-     justify-content: center;
+     justify-content: space-between;
      padding: 0px 50px;
  }
 
@@ -78,7 +78,7 @@
  }
 
  .banner-greeting {
-     color: var(--dark-02, #474747);
+     color: #474747;
      font-family: Open Sans;
      font-size: 40px;
      font-style: normal;
@@ -87,7 +87,7 @@
  }
 
  .banner-title {
-     color: var(--dark-01, #181818);
+     color: #181818;
      font-family: Open Sans;
      font-size: 60px;
      font-style: normal;
@@ -96,11 +96,66 @@
  }
 
  .banner-para {
-     color: var(--dark-03, #757575);
+     color: #757575;
      font-family: Open Sans;
      font-size: 12px;
      font-style: normal;
      font-weight: 400;
      padding-top: 20px;
      padding-bottom: 20px;
+ }
+
+ /* main section */
+ /* About section */
+ .about {
+     margin: 100px 100px;
+ }
+
+ .about-info {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 30px;
+ }
+
+ .section-title {
+     margin-top: 50px;
+     margin-bottom: 30px;
+     color: #181818;
+     text-align: center;
+     font-family: Open Sans;
+     font-size: 35px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+ }
+
+ .section-des {
+     color: #757575;
+     text-align: center;
+     font-family: Open Sans;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+ }
+
+ .info-name {
+     color: #474747;
+     font-family: Open Sans;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 30px;
+ }
+
+ .info-address {
+     color: #757575;
+     text-align: center;
+     font-family: Open Sans;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     /* 150% */
  }
