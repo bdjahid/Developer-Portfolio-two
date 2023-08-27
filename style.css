@@ -327,13 +327,11 @@
      font-weight: 400;
      line-height: 28px;
      border-radius: 5px;
-     width: 200px;
-     margin-top: 10px;
+     width: 461px;
  }
 
  textarea {
-     margin-top: 20px;
-     width: 200px;
+     width: 461px;
      height: 100px;
      color: #757575;
      font-family: Open Sans;
