@@ -1,7 +1,6 @@
  * {
      margin: 0;
      padding: 0;
-     background-color: rgb(158, 129, 129);
  }
 
  .text-orange {
@@ -106,9 +105,12 @@
  }
 
  /* main section */
+
  /* About section */
  .about {
      margin: 100px 100px;
+     background-color: #FFF8F3;
+     padding: 40px;
  }
 
  .about-info {
@@ -134,10 +136,11 @@
      color: #757575;
      text-align: center;
      font-family: Open Sans;
-     font-size: 15px;
+     font-size: 10px;
      font-style: normal;
      font-weight: 400;
      line-height: 30px;
+     width: 500px;
  }
 
  .info-name {
@@ -157,5 +160,125 @@
      font-style: normal;
      font-weight: 400;
      line-height: 30px;
-     /* 150% */
+ }
+
+ /* what section */
+ .section-title {
+     color: #181818;
+     text-align: center;
+     font-family: Open Sans;
+     font-size: 35px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+ }
+
+ .section-description {
+     color: #757575;
+     text-align: center;
+     font-family: Open Sans;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     width: 600px;
+     margin: 0 auto;
+
+ }
+
+ .skills-container {
+     display: flex;
+     gap: 24px;
+     margin: 0px 50px;
+     margin-top: 30px;
+ }
+
+ .skill {
+     text-align: center;
+     padding: 30px;
+     border-radius: 5px;
+     background: #FFF;
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ }
+
+ .skill-title {
+     color: #181818;
+     text-align: center;
+     font-family: Open Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+ }
+
+ .skill-description {
+     color: #757575;
+     font-family: Open Sans;
+     font-size: 8px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px;
+ }
+
+ /* Resume */
+
+ .resume-container {
+     display: flex;
+     margin: 0px 50px;
+     gap: 30px;
+ }
+
+ .resume-column-title {
+     color: #474747;
+     font-family: Open Sans;
+     font-size: 2-15px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     margin-top: 5px;
+     margin-bottom: 5px;
+ }
+
+ .resume-column {}
+
+ .resume-title {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     color: #474747;
+     font-family: Open Sans;
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+ }
+
+ .resume-info {
+     color: #757575;
+     font-family: Open Sans;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+ }
+
+ .resume-description {
+     color: #757575;
+     font-family: Open Sans;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px;
+     margin-top: 10px;
+     margin-bottom: 5px;
+     /* 175% */
+ }
+
+ .button {
+     text-align: center;
+     margin-top: 20px;
+     font-family: Open Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
  }
